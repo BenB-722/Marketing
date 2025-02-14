@@ -108,6 +108,7 @@ img {
 .section {
     transform: translateY(100vh);
     opacity: 0;
+	height: 150vh;
 }
 
 .section.active {

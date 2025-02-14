@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let scrollPosition = window.scrollY;
 
         sections.forEach((section) => {
-            let sectionTop = section.offsetTop - window.innerHeight / 1.5;
+            let sectionTop = section.offsetTop - window.innerHeight / 1;
 
             if (scrollPosition > sectionTop) {
                 section.classList.add("active");
